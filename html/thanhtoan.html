@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/thanhtoan.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"  />
+    <!-- <title>Document</title> -->
+</head>
+<body>
+    <div id="header-data"></div>
+    <h1>Xác Nhận Thông Tin</h1>
+    <form id="paymentForm">
+        <h2>Vui lòng nhập thông tin của bạn</h2>
+        <div class="group">
+            <label>Họ và tên:</label>
+            <input type="text" id="fullname" placeholder="Nguyễn Văn A">
+            <label>Số điện thoại:</label>
+            <input type="text" id="phone" maxlength="10" placeholder="0123456789">
+            <label>Địa chỉ:</label>
+            <input type="text" id="address" placeholder="Nhập địa chỉ cụ thể">
+            <label for="paymentMethod">Phương thức thanh toán:</label>
+            <select id="paymentMethod" required>
+            <option value="">-- Chọn phương thức --</option>
+            <option value="transfer">Chuyển khoản ngân hàng</option>
+            <option value="cod">Thanh toán khi nhận hàng</option>
+            </select>
+            <button id="confirmBtn">Xác Nhận</button>
+        </div>
+    </form>
+    <script src="../js/thanhtoan.js"></script>
+</body>
+<div id="footer-data"></div>
+<script src="/js/include.js"></script>
+</html>

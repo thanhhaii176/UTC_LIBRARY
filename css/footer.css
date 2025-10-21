@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+body {
+    background-color:#fff;
+}
+footer {
+  width:100%;
+  background-color: #142b4f;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding:0 10px;
+  box-sizing: border-box;
+}
+
+footer > div {
+  flex: 1;
+  min-width: 250px; 
+  /* margin: 10px 20px; */
+}
+.footer-left{
+  padding-top: 50px;
+}
+
+.footer-left img.logo {
+  width: 60px;
+  height:auto;
+  /* margin-bottom: 10px; */
+}
+.content-logo{
+  position:relative;
+  bottom:80px;
+}
+.footer-left h3 {
+  /* margin: 5px 0; */
+  padding-top:13px;
+  padding-left: 80px;
+}
+.footer-left p{
+  /* margin:4px 0; */
+  padding-top: 13px;
+ padding-left: 80px;
+}
+.footer-center{
+  text-align: center;
+  padding-top:40px;
+  font-size: 20px;;
+}
+.footer-right{
+  text-align: center;
+  padding-top: 50px;
+}
+.footer-center h4, .footer-right h4 {
+  /* margin-bottom: 10px; */
+  color: #fff;
+  font-size: 25px;
+}
+
+.social-icons a {
+  display:inline-block;
+  color:#fff;    
+  font-size: 25px;
+  margin: 0 8px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: blue;
+  transform: scale(1.2);
+  background-color: #fff;
+}
+.social-icons a:hover .fa-brands.fa-youtube {
+  color: red;
+  transform: scale(1.2);
+}
+
+.app-links {
+  display: flex;                /* giúp 2 ảnh nằm trên cùng 1 hàng */
+  justify-content: center;      /* căn giữa trong cột phải */
+  align-items: center;          /* căn giữa theo chiều dọc */
+  gap: 15px;                    /* khoảng cách giữa 2 ảnh */
+  margin-top: 10px;             /* tạo khoảng cách với tiêu đề */
+}
+.app-links img {
+  height: 60px;          /* chiều cao cố định */
+  width: auto;           /* tự điều chỉnh chiều rộng để không méo hình */
+  object-fit: contain;   /* giữ nguyên tỉ lệ ảnh */
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.app-links img:hover {
+  opacity: 0.8;
+}

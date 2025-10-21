@@ -1,0 +1,75 @@
+/* *{
+    width: 90%;
+    margin: 0 auto;
+} */
+body{
+    background-color: #fff;
+    justify-content: center;   
+    align-items: center; 
+}
+.div-1{
+    height:100px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.div-1 h1{
+    color: #294869;
+    font-size: 60px;
+    padding:0;
+}
+.div-1 p{
+    color:#294869;
+    font-size: 18px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: center; 
+    align-items: center;       
+    /* min-height: 80vh; */
+    margin-bottom: 30px;
+}
+article{
+    width: 300px;
+    height:250px;
+    background-color: #f6f1f1aa;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    margin-top:100px;
+    
+}
+article h3{
+    font-size: 18px;
+    color: #000;
+   
+}
+article p{
+    font-size: 15px;
+    color:#A6A6A6;
+    
+}
+.fa-house {
+    font-size: 100px; 
+    color: #447F47;  
+    margin-bottom: 30px; 
+    margin-top: 30px;
+}
+.fa-question{
+    font-size: 100px; 
+    color: #447F47;  
+    margin-bottom: 30px; 
+    margin-top: 30px;
+}
+.fa-copyright{
+    font-size: 100px; 
+    color: #447F47;  
+    margin-bottom: 30px; 
+    margin-top: 30px;
+}
+article a{
+    text-decoration: none;
+}
+

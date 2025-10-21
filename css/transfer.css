@@ -1,0 +1,31 @@
+body{
+    text-align: center; 
+    margin: 50px; 
+    background-color: #fff;
+}
+.qr-box{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    background-color: #f6f1f1aa;
+    width: 400px;
+}
+img{
+    width: 200px;
+    margin-top: 10px;
+}
+h1{
+    color: #3b638e;
+    font-size: 50px;
+}
+button{
+    background-color: #223B56;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    padding:10px;
+}
+button:hover{
+    background-color: #a6a6a6;
+}

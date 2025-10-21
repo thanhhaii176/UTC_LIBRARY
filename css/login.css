@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* NỀN TRẮNG */
+body {
+  background-color: #ffffff;
+  color: #000;
+}
+
+/* KHUNG NGOÀI */
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #fff;
+  padding: 40px 20px;
+}
+
+/* HỘP LOGIN */
+.login-box {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  width: 360px;
+  text-align: center;
+}
+
+/* LOGO */
+.login-box .login-logo {
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+/* TIÊU ĐỀ */
+.login-box h2 {
+  color: #003366;
+  margin-bottom: 25px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+/* FORM */
+.login-box label {
+  display: block;
+  margin-bottom: 6px;
+  text-align: left;
+  color: #333;
+  font-weight: 600;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.login-box input:focus {
+  border-color: #003366;
+  outline: none;
+}
+
+/* NÚT */
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  background-color: #00509e;
+}
+
+/* CHÂN FORM */
+.login-footer {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #555;
+}
+
+.login-footer a {
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+}

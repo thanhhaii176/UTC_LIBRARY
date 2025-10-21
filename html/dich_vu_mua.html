@@ -1,0 +1,205 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/dichvu.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"  />
+    <title>LIBRARY</title>
+</head>
+<body>
+ <div id="header-data"></div>
+ <div class="contai">
+  <div>
+    <h1>Khám Phá Thế Giới Tri thức</h1>
+  </div>
+  <div class="nav">
+     <h3><a style="color: rgb(0, 0, 0); " href="../css/dichvu.html"><i class="fas fa-home"></i>Thể Loại </a> </h3>
+     <h3>Tất Cả Các Sách</h3>
+  </div>
+  <div class="container">
+    <div class="menu-1">
+        <div class="div-1">
+            <ul>
+                <a href="theloai1_mua.html"><li></i> Giáo Trình</li></a>
+                <a href="theloai2_mua.html"><li><i class="fas fa-feather-alt"></i> Tiểu Thuyết</li></a>
+                <a href="theloai3_mua.html"><li><i class="fas fa-graduation-cap"></i> Sách Giáo Khoa</li></a>
+                <a href="theloai4_mua.html"><li><i class="fas fa-mobile-alt"></i> Sách Điện Tử</li></a>
+            </ul>
+        </div>
+        <div class="cart">
+            <h2>Giỏ hàng</h2>
+            <ul id="cart-items"></ul>
+            <div class="cart-total">Tổng: <span id="total-price">0</span>đ</div>
+            <button id="checkout">Thanh toán</button>
+        </div>
+    </div>
+    <div class="content">
+        <div class="book1">
+            <ul>
+                <li>
+                    <div>
+                        <div class="book">
+                            <a href="sach.html">
+                                <div><img src="../imgs/dientu1.jpg" alt="dientu1">
+                                    <div class="book-title">Đắc Nhân Tâm </div>
+                                    <div class="book-price"> Giá: 80.000đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div><button class="add-to-cart" data-name="Đắc Nhân Tâm" data-price="80000" data-img="../imgs/dientu1.jpg">
+                                Thêm vào giỏ hàng
+                            </button></div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="book">
+                            <a href="sach7.html">
+                                <div><img src="../imgs/giaokhoa1.jpg" alt="giaokhoa1">
+                                    <div class="book-title">Lịch Sử 12</div>
+                                    <div class="book-price">Giá: 45.000đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div><button class="add-to-cart" data-name="Lịch Sử 12" data-price="45000" data-img="../imgs/giaokhoa1.jpg">
+                                Thêm vào giỏ hàng
+                            </button></div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="book">
+                            <a href="sach6.html">
+                                <div><img src="../imgs/dientu6.jpg" alt="dientu6">
+                                    <div class="book-title" >Nghĩ Ngược, Sống...</div>
+                                    <div class="book-price" id="long">Giá: 99.000đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div><button class="add-to-cart" data-name="Nghĩ Ngược, Sống Đỉnh" data-price="99000" data-img="../imgs/dientu6.jpg">
+                                Thêm vào giỏ hàng
+                            </button></div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="book">
+                            <a href="sach13.html">
+                                <div><img src="../imgs/giaotrinh1.jpg" alt="giaotrinh1">
+                                    <div class="book-title">Lập Trình JaVa</div>
+                                    <div class="book-price">Giá: 120.000đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div><button class="add-to-cart" data-name="Lập Trình Java" data-price="120000" data-img="../imgs/giaotrinh1.jpg">
+                                Thêm vào giỏ hàng
+                            </button></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="book2">
+            <ul>
+                <li>
+                    <div>
+                        <div class="book">
+                            <a href="sach9.html">
+                                <div><img src="../imgs/giaokhoa3.jpg" alt="giaokhoa3">
+                                    <div class="book-title">Toán 10</div>
+                                    <div class="book-price">Giá: 40.000đ</div> 
+                                </div>
+                            </a>
+                        </div>
+                        <div><button class="add-to-cart" data-name="Toán 10" data-price="40000" data-img="../imgs/giaokhoa3.jpg">
+                                Thêm vào giỏ hàng
+                            </button></div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="book">
+                            <a href="sach20.html">
+                                <div><img src="../imgs/tieuthuyet2.jpg" alt="tieuthuyet2">
+                                    <div class="book-title">Những Kẻ Vô...</div>
+                                    <div class="book-price">Giá: 60.000đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div><button class="add-to-cart" data-name="Những Kẻ Vô Diện" data-price="60000" data-img="../imgs/tieuthuyet2.jpg">
+                                Thêm vào giỏ hàng
+                            </button></div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="book">
+                            <a href="sach23.html">
+                                <div><img src="../imgs/tieuthuyet5.jpg" alt="tieuthuyet5">
+                                    <div class="book-title">Điều Bí Mật</div>
+                                    <div class="book-price">Giá: 80.000đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div><button class="add-to-cart" data-name="Điều Bí Mật" data-price="80000" data-img="../imgs/tieuthuyet5.jpg">
+                                Thêm vào giỏ hàng
+                            </button></div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="book">
+                            <a href="sach22.html">
+                                <div><img src="../imgs/tieuthuyet4.jpg" alt="tieuthuyet4">
+                                    <div class="book-title">Cái Kết Đắng</div>
+                                    <div class="book-price">Giá: 75.000đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div><button class="add-to-cart" data-name="Cái Kết Đắng" data-price="75000" data-img="../imgs/tieuthuyet4.jpg">
+                                Thêm vào giỏ hàng
+                            </button></div>
+                    </div>
+                </li>
+  </div>
+  
+ </div>
+ </div>
+ <div class="nav1">
+     <ul>
+        <a href="">
+            <li>Trang Đầu</li>
+        </a>
+        <a href="">
+            <li>1</li>
+        </a>
+        <a href="">
+            <li>2</li>
+        </a>
+        <a href="">
+            <li>3</li>
+        </a>
+        <a href="">
+            <li>4</li>
+        </a>
+        <a href="">
+            <li>5</li>
+        </a>
+        <a href="">
+            <li>Trang Cuối</li>
+        </a>
+     </ul>
+  </div>
+    
+ </div>
+ 
+
+ <script src="../js/giohang.js"></script>
+</body>
+<div id="footer-data"></div>
+ <script src="/js/include.js"></script>
+</html>

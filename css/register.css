@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #ffffff;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  background-color: #142b4f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 60px;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+.nav a:hover,
+.nav a.active {
+  text-decoration: underline;
+}
+
+.container {
+  flex: 1;                       /* Tự chiếm khoảng trống giữa header & footer */
+  display: flex;
+  justify-content: center;       /* Căn giữa ngang */
+  align-items: center;           /* Căn giữa dọc */
+  background-color: #fff;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+
+/* Hộp đăng ký */
+.login-box {
+  width: 420px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 40px 35px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+h2 {
+  text-align: center;
+  color: #142b4f;
+  margin-bottom: 25px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+}
+
+input:focus {
+  border-color: #142b4f;
+}
+
+.btn {
+  width: 100%;
+  background-color: #142b4f;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #0f2141;
+}
+
+.link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.link a {
+  color: #142b4f;
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #142b4f;
+  color: white;
+  font-size: 14px;
+}

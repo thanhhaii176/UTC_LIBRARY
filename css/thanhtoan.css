@@ -1,0 +1,64 @@
+/* *{
+    width: 90%;
+    margin: 0 auto;
+} */
+body{
+    background-color: #fff;
+}
+h4{
+    text-align: center;
+    color:#305379;
+    font-size: 50px;
+    margin-top: 50px;
+}
+#paymentForm{ 
+    width: 600px;
+    background: #f6f1f1aa;
+    margin: 50px auto;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+}
+h2 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 30px;
+}
+label {
+  width: 150px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-left: 0;
+}
+input, select {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  width: 60%;
+  display: block;
+  margin: 5px auto; 
+}
+input:focus, select:focus {
+  border-color: #007bff;
+}
+#paymentMethod{
+    width: 345px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4CAF50;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+button:hover{
+    background-color: #a6a6a6;
+}
